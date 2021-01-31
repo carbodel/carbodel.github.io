@@ -1,0 +1,51 @@
+  background: #428bca
+  background: #629fd3
+  transition: background 0.2s ease-in-out 
+  background: #fff
+  background: #fff
+  background: #fff
+  background: #1f3548
+  background: none
+  background: rgba(31, 53, 72, 0.7)
+  background-size: cover
+  background-position: top right
+  background-repeat: no-repeat
+  background-color: rgba(13, 30, 45, 0.6)
+  background-position: center top 
+  background: none
+  background: #428bca 
+  background: #1c5c93 
+  background-color: #f5f9fc 
+  background-color: #f5f9fc
+  background: #f1f7fb
+  background: #428bca 
+  background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%)
+  background: rgba(198, 16, 0, 0) 
+  background: #fff
+  background: #fff
+  background: #428bca
+  background: #fff
+  background: #428bca
+  background: rgba(31, 53, 72, 0.6)
+  background-color: #fff
+  background: #428bca
+  background-color: #ddd !important 
+  background-color: #428bca !important 
+  background: #fff
+  background: #fff
+  background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%)
+  background: #fff
+  background: #ed3c0d
+  background: #18d26e
+  background: #fff
+  background-color: #428bca 
+  background: #428bca
+  background: #6aa3d5 
+  background: #587187
+  background: #5c768d
+  background: #768fa6
+  background: #428bca
+  background: #fff
+  background: none
+  background: #428bca
+  background: #5295ce 
