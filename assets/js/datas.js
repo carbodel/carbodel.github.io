@@ -30,7 +30,7 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     beginAtZero: true
                 },
-                display: false
+                display: true
             }],
             xAxes: [{
                 display:true
@@ -74,7 +74,7 @@ var myChart = new Chart(pie, {
             }]
         },
         legend: {
-            display: false,
+            display: true,
         }
     }
 });
