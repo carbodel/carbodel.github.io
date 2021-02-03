@@ -202,6 +202,22 @@
     items: 1
   });
 
+
+// Delay animations
+
+$(window).on("scroll", function(){
+  if($(window).scrollTop() + $(window).height() -300 >= $("#cert").offset().top){
+ $(".typewriter ").children().addClass("animate");
+ $(".cert-paper ").addClass("animate");
+  }
+})
+
+
+
+
+
+
+
   // Init AOS
   function aos_init() {
     AOS.init({
