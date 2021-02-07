@@ -515,7 +515,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6a7a6f;
+  color: #6d7e72;
   content: "/"; }
 
 @media (max-width: 768px) {
@@ -535,6 +535,32 @@ section {
   align-items: center; }
   .chi_siamo-img img {
     width: 100%; }
+
+/*--------------------------------------------------------------
+# Sostenibilità
+--------------------------------------------------------------*/
+.sostenibilità .background {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.sostenibilità .row {
+  color: white; }
+  .sostenibilità .row .box-icone > div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; }
+    .sostenibilità .row .box-icone > div h4 {
+      display: inline-block;
+      margin-left: 3vw;
+      white-space: nowrap; }
+    .sostenibilità .row .box-icone > div .icone {
+      display: inline-block;
+      text-align: center;
+      font-size: 40px; }
 
 /*--------------------------------------------------------------
 # Carbonio neutralità
@@ -830,36 +856,6 @@ section {
 
 #cert .input-group-text {
   color: #444; }
-
-#cert .cert-paper {
-  margin: auto;
-  margin-bottom: 30px;
-  width: calc(60%);
-  min-width: 20rem;
-  background-color: white;
-  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
-  max-height: 0;
-  overflow: hidden; }
-  #cert .cert-paper.animate {
-    animation: open-section 0.5s ease-in 2s;
-    animation-fill-mode: forwards; }
-  #cert .cert-paper .cert-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    #cert .cert-paper .cert-header img {
-      width: 15%;
-      min-width: 1 rem;
-      min-height: 1 rem; }
-  #cert .cert-paper .row {
-    align-items: flex-end; }
-    #cert .cert-paper .row .cert-chart {
-      margin: auto;
-      max-width: 50%;
-      margin-bottom: 3.5rem; }
-    #cert .cert-paper .row .cert-chart.pie {
-      max-width: 40%;
-      margin-bottom: 3rem; }
 
 .typewriter h2 {
   overflow: hidden;
@@ -1232,14 +1228,14 @@ section {
 .contact .php-email-form textarea {
   padding: 12px 15px; }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button.submit {
   background: #11913B;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s; }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button.submit:hover {
   background: #6ed490; }
 
 @-webkit-keyframes animate-loading {
