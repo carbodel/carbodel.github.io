@@ -808,6 +808,8 @@ section {
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15); }
 
 .services img {
+  width: 250px;
+  height: 141px;
   max-width: 300px;
   margin-bottom: 20px; }
 
