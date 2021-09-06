@@ -22,6 +22,14 @@
     padding: calc(5%);
     max-height: 1000px; } }
 
+.cover {
+  padding: 0px; }
+  .cover-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33vh; }
+
 /**
 * Template Name: Mamba - v3.0.3
 * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/

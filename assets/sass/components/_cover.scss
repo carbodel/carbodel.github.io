@@ -1,0 +1,12 @@
+.cover {
+
+    padding: 0px;
+
+    &-img {
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;   
+        height: 33vh;
+    }
+
+}
