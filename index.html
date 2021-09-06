@@ -22,6 +22,8 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -32,7 +34,9 @@
 
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -51,18 +55,21 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container d-flex">
       <div class="contact-info me-auto float-right">
-        <i class="icofont-envelope"></i><a href="mailto:carbodel.it@gmail.com">carbodel.it@gmail.com</a>
+        <i class="icofont-envelope"></i><a href="mailto:info@carbodel.it">info@carbodel.it</a>
         <i class="icofont-phone"></i> +39 080 87 627 23
       </div>
-      <!-- 
+
       <div class="social-links float-right">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="skype"><i class="icofont-skype"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        <a href="https://twitter.com/carbodel1" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="https://www.facebook.com/Carbodel" class="facebook" target="_blank"><i
+            class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/carbodel/" class="instagram" target="_blank"><i
+            class="icofont-instagram"></i></a>
+        <!-- <a href="#" class="skype"><i class="icofont-skype"></i></a> -->
+        <a href="https://www.linkedin.com/company/carbodel" class="linkedin" target="_blank"><i
+            class="icofont-linkedin"></i></i></a>
       </div>
-       -->
+
     </div>
   </section>
 
@@ -79,9 +86,22 @@
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="cn.html">Carbonio Neutralità</a></li>
+          <li><a href="lca.html">Life Cycle Assessment</a></li>
+          <li><a href="cons.html">Consulenza Strategica</a></li>
+
+          <!-- consulenza con dropdown
+          <li class="drop-down"><a href="cons.html">Consulenza Ambientale</a>
+            <ul>
+              <li><a href="cons.html">Efficientamento Energetico</a></li>
+              <li><a href="cons.html">Strategie di Mitigazione Impatto Ambientale</a></li>
+              <li><a href="cons.html">Seminari, Webinar e Formazione</a></li>
+            </ul>
+          </li>
+          -->
           <li><a href="#services">Servizi</a></li>
-          <li><a href="#cn">Carbonio Neutralità</a></li>
-          <li><a href="#cert">Certificazione</a></li>
+
+
           <!--           
           <li class="drop-down"><a href="">Servizi</a>
             <ul>
@@ -102,11 +122,17 @@
           </li>
        -->
           <li><a href="#contact">Contattaci</a></li>
+          <!--PROVVISORIO
+          <li><a href="#inglese">EN</a></li>
+          <li><a href="#spagnolo">ES</a></li>
+          -->
         </ul>
       </nav><!-- .nav-menu -->
 
     </div>
   </header><!-- End Header -->
+
+  <!-- MODIFICA DA QUI PER LCA - CN e CONSULENZA -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -118,20 +144,6 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-2.jpg');">
-            <div class="carousel-container">
-              <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Consulenza per<br>la Sostenibilità</h2>
-                <p class="animate__animated animate__fadeInUp">Supportiamo le aziende nella definizione dei propri
-                  obiettivi per garantire che la propria Climate Action sia in linea con le direttive nazionali ed
-                  internazionali</p>
-                <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">leggi di
-                  più</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
           <div class="carousel-item" style="background-image: url('assets/img/slide/slide-1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
@@ -139,20 +151,35 @@
                 <p class="animate__animated animate__fadeInUp">Studiamo e sviluppiamo progetti per la gestione delle
                   emissioni di CO<sub>2</sub> della tua azienda al fine di trasformarla in realtà <b>Carbonio
                     Neutrale</b></p>
-                <a href="#cn" class="btn-get-started animate__animated animate__fadeInUp scrollto">Leggi di più</a>
+                <a href="cn.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Leggi di più</a>
               </div>
             </div>
           </div>
 
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.png');">
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-5.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Certificazione</h2>
-                <p class="animate__animated animate__fadeInUp"> Grazie al nostro servizio di certificazione
-                  riusciamo a dare la giusta visibilità e riconoscimento allo sforzo della tua azienda verso la
-                  sostenibilità. </p>
-                <a href="#cert" class="btn-get-started animate__animated animate__fadeInUp scrollto">Leggi di più</a>
+                <h2 class="animate__animated animate__fadeInDown">Life Cycle Assessment</h2>
+                <p class="animate__animated animate__fadeInUp"> Valutiamo e analizziamo l'impronta ambientale di un
+                  prodotto <br />o
+                  di un servizio, lungo il suo intero ciclo di vita.</p>
+                <a href="lca.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Leggi di più</a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Slide 3 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Consulenza Strategica</h2>
+                <p class="animate__animated animate__fadeInUp">Supportiamo le aziende nella definizione dei propri
+                  obiettivi per garantire che la propria Climate Action sia in linea con le direttive nazionali ed
+                  internazionali</p>
+                <a href="cons.html" class="btn-get-started animate__animated animate__fadeInUp">leggi di
+                  più</a>
               </div>
             </div>
           </div>
@@ -188,12 +215,23 @@
             <div class="display-1">Sostenibilità</div>
             <div class="mt-5">
               <p>
-                Aiutiamo le imprese a crescere in maniera sostenibile nel pieno rispetto dell’ambiente e
+                Aiutiamo le imprese nazionali e multinazionali a crescere in maniera sostenibile nel pieno rispetto
+                dell’ambiente e
                 delle normative vigenti. <br><br>
                 Attraverso strategie di mitigazione del cambiamento climatico studiate su misura per ridurre, per quanto
-                possibile, il quantitativo di gas serra prodotto, è fondamentale adattare il proprio modello di business e
+                possibile, il quantitativo di gas serra prodotto, collaboriamo al fine di adattare il proprio modello di
+                business e
                 consentire che lo sforzo intrapreso abbia la giusta visibilità e riconoscimento.
               </p>
+            </div>
+            <div class="d-flex align-items-stretch justify-content-center" style="height: 200px;">
+              <div class="d-flex ">
+                <div class=" btn btn-success animate__animated animate__fadeInUp align-self-center">
+                  <h3 class="px-3 pt-1">
+                    Scopri come
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -222,51 +260,53 @@
             visione di economia sempre più verde, circolare e integrata.</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><img src="assets/img/servizi/lca.gif" width="100%" class="img-fluid" alt=""></div>
-            <h4 class="title"><a href="#contact">Life Cycle Assessment (LCA)</a></h4>
-            <p class="description">Calcolo della carbon footprint di un prodotto, processo o servizio tramite
-              l’applicazione
-              della metodologia Life Cycle Assessment (LCA)</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><img src="assets/img/servizi/eff_energ.gif" width="100%" class="img-fluid" alt=""></div>
-            <h4 class="title"><a href="#contact">Consulenza Ambientale</a></h4>
-            <p class="description">Efficientamento energetico, elaborazione di strategie per la mitigazione dell’impatto
-              ambientale,
-              formazione delle risorse umane</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><img src="assets/img/servizi/bacheca.gif" width="100%" class="img-fluid" alt=""></div>
-            <h4 class="title"><a href="#contact">Certificazione di Carbonio Neutralità</a></h4>
-            <p class="description">Individuazione e calcolo di tutte le fonti di emissioni, elaborazione piani di
-              riduzione
-              e compensazione, acquisto di carbon credit e certificazione</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><img src="assets/img/servizi/acqusito_carbon_credits.gif" width="100%" class="img-fluid"
+            <div class="icon"><img src="assets/img/servizi/lca.gif" style="width:250px;height: 141px;" class="img-fluid"
                 alt=""></div>
-            <h4 class="title"><a href="#contact">Acquisto Carbon-Credit</a></h4>
-            <p class="description">Acquisto di crediti di carbonio atti a compensare le emissioni di anidride carbonica
-              equivalente
+            <h4 class="title"><a href="lca.html">Life Cycle Assessment (LCA)</a></h4>
+            <p class="description"> Quantificazione dell’impatto ambientale di un processo, servizio o prodotto durante
+              l’intero ciclo di vita dello stesso tramite l’applicazione della metodologia Life Cycle Assessment (LCA).
             </p>
           </div>
+
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><img src="assets/img/servizi/calc_emission.gif" width="100%" class="img-fluid" alt="">
+            <div class="icon"><img src="assets/img/servizi/calc_emission.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt="">
             </div>
-            <h4 class="title"><a href="#contact">Calcolo emissioni</a></h4>
+            <h4 class="title"><a href="cn.html">Calcolo Carbon Footprint</a></h4>
             <p class="description">Implementazione di un inventario contenente un’analisi tecnica per l’identificazione
               dei vari <i>hot-spot</i>
-              di emissioni, la relativa quantificazione e divisione a seconda dell’opportuna classificazione</p>
+              di emissioni, la relativa quantificazione e divisione a seconda dell’opportuna classificazione.</p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><img src="assets/img/servizi/cn.gif" width="100%" class="img-fluid" alt=""></div>
-            <h4 class="title"><a href="#contact">Piani di riduzione e compensazione</a></h4>
-            <p class="description">Elaborazione di strategie su misure atte a ridurre e compensare l’impatto
-              ambientale
-              della vostra impresa</p>
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><img src="assets/img/servizi/eff_energ.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="cons.html">Consulenza Strategica</a></h4>
+            <p class="description">Efficientamento energetico, elaborazione di strategie per la mitigazione dell’impatto
+              ambientale,
+              seminari/webinar e formazione.</p>
           </div>
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><img src="assets/img/servizi/acqusito_carbon_credits.gif"
+                style="width:250px;height: 141px;" class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="cn.html">Acquisto Carbon Credit</a></h4>
+            <p class="description">Acquisto di crediti di carbonio atti a compensare le emissioni di anidride carbonica
+              equivalente dall'atmosfera.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img src="assets/img/servizi/bacheca.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="cn.html">Certificazione di Carbonio Neutralità</a></h4>
+            <p class="description"> Completato il percorso di misurazione, riduzione e compensazione, è possibile
+              ottenere la certificazione e il
+              relativo marchio di “Carbonio Neutralità”.</p>
+          </div>
+
         </div>
 
       </div>
@@ -288,10 +328,15 @@
             <div class="display-1">
               Sostenibilità
             </div>
-            <p>Un approccio green rappresenta uno dei più importanti fattori che plasmano il futuro del pianeta e delle imprese. 
+            <p>Un approccio green rappresenta uno dei più importanti fattori che plasmano il futuro del pianeta e delle
+              imprese.
               Ecco una serie di motivi sul perchè dovresti puntarci:</p>
             <div class="mt-5">
               <div class="box-icone">
+                <div class="p-2 col-12">
+                  <div class="icone"><i class="bx bx-spreadsheet"></i></div>
+                  <h4>Stretta Normativa</h4>
+                </div>
                 <div class="p-2 col-12">
                   <div class="icone"><i class="fas fa-globe-europe"></i></div>
                   <h4>Futuro del pianeta</h4>
@@ -304,10 +349,7 @@
                   <div class="icone"><i class="bx bx-chevrons-right"></i></div>
                   <h4>Distinguersi dagli altri</h4>
                 </div>
-                <div class="p-2 col-12">
-                  <div class="icone"><i class="bx bx-spreadsheet"></i></div>
-                  <h4>Stretta Normativa</h4>
-                </div>
+
               </div>
             </div>
           </div>
@@ -317,11 +359,194 @@
     </section>
 
 
-
-
-    <!-- ======= Carbonio Neutrality ======= -->
+    <!-- ======= AGENDA 2030 ======= -->
     <section id="cn" class="cn">
+      <!-- ======= se cambio id e classe succede maionese ======= -->
       <div class="container">
+
+        <div class="row no-gutters">
+          <div class="col-lg-6 video-box">
+            <img src="assets/img/sdg-brand.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=E_dAQoYNv-Y" class="venobox play-btn mb-4" data-vbtype="video"
+              data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center cn-content">
+
+            <div class="section-title">
+              <h2>Quali sono gli obiettivi Comunitari?</h2>
+              <h3>Agenda 2030</h3>
+              <p>
+                L’Agenda 2030 per lo Sviluppo Sostenibile è un programma d’azione sottoscritto
+                il 25 settembre 2015 dai governi dei 193 Paesi membri delle Nazioni Unite e approvata
+                dall'Assemblea Generale dell'ONU.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-list-check"></i></div>
+              <h4 class="title"><a href="">Obiettivi</a></h4>
+              <p class="description">Il progetto ingloba 17 obiettivi per lo Sviluppo Sostenibile – <i>Sustainable
+                  Development Goals, SDGs</i> –
+                inquadrati all’interno di un programma d’azione più vasto costituito da 169 traguardi da raggiungere in
+                ambito ambientale,
+                economico, sociale e istituzionale entro il 2030.</b></p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-recycle"></i></div>
+              <h4 class="title"><a href="">Goal n°15 Climate Action</a></h4>
+              <p class="description">Per favorire la lotta contro il cambiamento climatico, la Commissione europea, ha
+                proposto un inisme di iniziative politiche atte all’attuazione del cosiddetto <i>GREEN DEAL</i>:
+                patto finalizzato a ridurre, entro il 2030, il 55% delle emissioni nette di CO<sub>2</sub> rispetto ai
+                livelli del 1990,
+                con l'obbiettivo del raggiungimento finale della neutralità climatica in Europa entro il 2050.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="cowntdown" class="section-bg">
+      <div class="container">
+
+
+        <div class="section-title">
+          <h2>Non c'è tempo da perdere</h2>
+        </div>
+
+        <div class="row col-md-10 col-lg-8 m-auto">
+
+          <div class="col-3 text-center">
+            <div>
+              <h3 id="days" class="time-box">
+                Giorni
+              </h3>
+            </div>
+            <div>
+              Giorni
+            </div>
+          </div>
+          <div class="col-3 text-center">
+            <div>
+              <h3 id="hours" class="time-box">
+                Ore
+              </h3>
+            </div>
+            <div>
+              Ore
+            </div>
+          </div>
+          <div class="col-3 text-center">
+            <div>
+              <h3 id="minutes" class="time-box">
+                minuti
+              </h3>
+            </div>
+            <div>
+              Minuti
+            </div>
+          </div>
+          <div class="col-3 text-center">
+            <div>
+              <h3 id="seconds" class="time-box">
+                Secondi
+              </h3>
+            </div>
+            <div>
+              Secondi
+            </div>
+          </div>
+
+        </div>
+
+        <div class="pt-5 text-center">
+          <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Scopri cosa succederà il 2030
+          </button>
+        </div>
+
+        <div class="collapse mt-4" id="collapseExample">
+
+          <div class="card-columns pt-4 pb-2">
+            <div class="card">
+              <img class="card-img-top" src="assets/img/Home/hot.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Aumento della temperatura</h5>
+                <p class="card-text">Gli esperti rilevano che il climate change riguarda ogni area della Terra e tutto
+                  il sistema climatico. La temperatura media globale del pianeta nel decennio 2011-2020 è stata di 1,09
+                  gradi centigradi superiore a quella del periodo 1850-1900 con un riscaldamento più accentuato sulle
+                  terre emerse rispetto all'oceano</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/img/Home/meltingGlaciers.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Scioglimento dei ghiacciai</h5>
+                <p class="card-text">Negli ultimi 20 anni lo scioglimento dei ghiacciai è accelerato su scala globale
+                  perdendo 267 miliardi di tonnellate di ghiaccio all'anno, con un'impennata del 130% tra il 2000 e il
+                  2019.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/img/Home/seaLevel.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Aumento dei livelli dei mari</h5>
+                <p class="card-text">A seguito del riscaldamento climatico, il livello medio dell'innalzamento del
+                  livello del mare fra il 1901 e il 2020 è stato di 20 cm, con una crescita media di 1,35 mm/anno dal
+                  1901 al 1990 e una crescita accelerata di 3,7 mm/anno fra il 2006 e il 2018. Le evidenze di questo
+                  fenomeno sono le mareggiate sempre più distruttive</p>
+              </div>
+            </div>
+            <div class="card p-3 bg-success text-white">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Assumi la tua parte di responsabilità e fai qualcosa per evitare tutto questo</p>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/img/Home/coralReef.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Acidificazione degli oceani</h5>
+                <p class="card-text">L'incremento di anidride carbonica nell'atmosfera sta influenzando anche gli
+                  equilibri degli ecosistemi marini. Gli oceani, infatti, assorbono tra un terzo e un quarto di tutta la
+                  CO<sub>2</sub> rilasciata ogni anno nell'atmosfera. A farne le spese, ad esempio, sono le barriere
+                  coralline la cui sopravvivenza è già messa a rischio dal fenomeno dello sbiancamento che ne certifica
+                  la morte</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/img/Home/fire.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Aumento degli incendi in scala mondiale</h5>
+                <p class="card-text">Gli incendi boschivi, nell’attuale contesto dei cambiamenti climatici, sono un
+                  problema destinato a complicarsi ed aggravarsi nei prossimi anni. Stiamo parlando di un fenomeno che
+                  in Europa, dal 2000 al 2017, ha distrutto 8,5 milioni di ettari boschivi</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="assets/img/Home/drougth.png" alt="Card image">
+              <div class="card-body">
+                <h5 class="card-title">Aumento di periodi di siccità</h5>
+                <p class="card-text">La durata della siccità è legata ai cambiamenti nella piovosità media che a sua
+                  volta si modifica di pari passo con il riscaldamento globale. È questo il motivo per cui regioni che
+                  stanno registrando un calo nelle precipitazioni medie (come il Mediterraneo, l’America centrale e
+                  meridionale e il Sud Africa) subiranno siccità più durature e frequenti.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- End Agenda 2030 Section -->
+
+
+    <!-- mike's section su c.n:
+    <section id="cn" class="cn">
+      <div class="con tainer">
 
         <div class="row no-gutters">
           <div class="col-lg-6 video-box">
@@ -362,7 +587,7 @@
       </div>
     </section>
 
-    <!-- End Carbonio Neutrality Section -->
+ -->
 
 
 
@@ -421,7 +646,7 @@
       </div>
     </section> End About Lists Section -->
 
-    <!-- ======= Counts Section ======= -->
+    <!-- ======= Counts Section ======= 
     <section class="counts section-bg">
       <div class="container">
 
@@ -450,7 +675,7 @@
 
           <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
             <div class="count-box">
-              <!--               <i class="icofont-live-support" style="color: #46d1ff;"></i> -->
+              <!--               <i class="icofont-live-support" style="color: #46d1ff;"></i> 
               <span>-</span>
               <span data-toggle="counter-up">30</span>
               <p>ton CO<sub>2</sub>/azienda</p>
@@ -474,7 +699,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="section-title">
-          <h2>Certificazione</h2>
+          <h2>Il nostro marchio, il tuo impegno</h2>
           <h3>Certificati con noi e condividi il tuo impatto ecologico</h3>
           <p>Questa è un'opportunità unica sia da un punto di vista etico sia in termini di crescita del proprio
             business! <br>
@@ -484,22 +709,25 @@
         </div>
 
         <div class="row pb-5">
-          <div class="col-12 col-md-6 p-5">
+          <img src="assets/img/marchio/Marchio_.png" style="width: 50%; min-width: 300px; max-width: 500px;"
+            class="m-auto my-4">
+          <!--    <div class="col-12 col-md-6 p-5">
             <img src="assets/img/cert/BoxMockup.png" width="100%" class="p-2" alt="">
           </div>
 
           <div class="col-12 col-md-6 p-5">
             <img src="assets/img/cert/4420564.png" width="100%" class="p-2" alt="">
-          </div>
+          </div> -->
         </div>
 
 
 
-        <p>Al termine del processo, verrà rilasciato il marchio internazionale di carbonio neutralità con il relativo certificato  
+        <p>
+          Al termine del processo, verrà rilasciato il marchio internazionale di carbonio neutralità con il relativo
+          certificato
           corrispondente all'anno di riferimento.
           Entrambi potranno essere apposti sui vostri prodotti o sulla pagina principale del vostro sito al fine di dare
           la giusta visibilità e riconoscimento allo sforzo intrapreso!
-
       </div>
     </section><!-- End Our cert Section -->
 
@@ -663,15 +891,16 @@
               Le fonti emissive di cui è composta l’Impronta Carbonica aziendale possono essere raggruppate in tre
               macro-classi definite dal GHG Protocol:
             <ul>
-              <li><b>Emissioni dirette</b>: causate dalla combustione di combustibili prodotti dal processo produttivo e
-                per le
-                installazioni interne;</li>
-              <li><b>Emissioni indirette</b>: dovute al consumo energetico, cioè all’utilizzo di energia comprata da un
-                ente e
-                usata dall’organizzazione;</li>
-              <li><b>Emissioni indirette non sotto controllo dell’organizzazione</b>: viaggi di lavoro, trasporti di
-                personale o
-                prodotti, utilizzo del prodotto da parte del consumatore, smaltimento dei rifiuti.
+              <li><b>Scope 1</b>:Emissioni dirette provenienti dalle installazioni presenti all’interno dei confini
+                dell’organizzazione dovute all’utilizzo di combustibili fossili e all’emissione in atmosfera di
+                qualsiasi
+                gas ad effetto serra;</li>
+              <li><b>Scope 2</b>: Emissioni indirette derivanti dalla generazione di elettricità, calore e vapore
+                importati e consumati dall’organizzazione;</li>
+              <li><b>Scope 3</b>:Emissioni indirette non sotto controllo dell’organizzazione dovute all’attività
+                dell’azienda.
+                Ovvero, fonti emissive che non sono sotto il diretto controllo dell'impresa, ma le cui emissioni sono
+                indirettamente dovute all’attività aziendale.
               </li>
 
             </ul>
@@ -697,7 +926,7 @@
             <div class="info-box">
               <i class="bx bx-map"></i>
               <h3>Il nostro indirizzo</h3>
-              <p>VIa Giuseppe Fanelli 283/a<br>Bari (BA), 70125 - Italia</p>
+              <p>St. Prov. per Santeramo km 0.500<br>Acquaviva delle Fonti (BA), 70021 - Italia</p>
             </div>
           </div>
 
@@ -705,7 +934,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email</h3>
-              <p>carbodel.it@gmail.com</p>
+              <p>info@carbodel.it <br> info@pec.carbodel.it</p>
             </div>
           </div>
 
@@ -761,53 +990,60 @@
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>Carbodel</h3>
             <p>
-              Via Giuseppe Fanelli, 283,<br>
-              Bari (BA), 70125 - Italia <br><br>
+              St. Prov. per Santeramo km 0.500,<br>
+              Acquaviva delle Fonti (BA), 70021 - Italia <br><br>
               <strong>Telefono:</strong> +39 080 87 627 23<br>
-              <strong>Email:</strong> carbodel.it@gmail.com<br>
+              <strong>Email:</strong> info@carbodel.it<br>
             </p>
-            <!--             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div> -->
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/Carbodel1" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.facebook.com/Carbodel" target="_blank" class="facebook"><i
+                  class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/carbodel/" target="_blank" class="instagram"><i
+                  class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <a href="https://www.linkedin.com/company/carbodel" target="_blank" class="linkedin"><i
+                  class="bx bxl-linkedin"></i></a>
+            </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Link utili</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#cn">Carbonio Neutralità</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Servizi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cn.html">Carbonio Neutralità</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lca.html">Life Cycle Assessment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cons.html">Consulenza Strategica</a></li>
               <!-- 
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> 
+              -->
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nostri servizi</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Life Cycle Assessment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Consulenza ambientale</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Certificazione di carbonio neutralità</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Acqusisto Carbon-credits</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Calcolo emissioni</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Piani di riduzione e compensazione</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="lca.html">Life Cycle Assessment</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#carbonfootprint">Calcolo Carbon FootPrint</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cons.html#efficeintamento">Efficientamento Energetico e
+                  Consulenza
+                  Strategica</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#carboncredits">Acqusisto Carbon Credit</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#certificazione">Certificazione Carbonio
+                  Neutralità</a></li>
             </ul>
           </div>
-
+          <!--
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>La nostra Newsletter</h4>
             <p>Se vuoi rimanere aggiornato sulle nostre attività, iscriviti alla nostra newsletter</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Iscriviti">
             </form>
-
           </div>
-
+        -->
 
         </div>
       </div>
@@ -816,8 +1052,8 @@
 
     <div class="container">
       <div class="col-12 d-flex justify-content-center mt-4">
-        <div class="me-5">2021 &copy; EcoAgriTech <br>Tutti i diritti riservati</div>
-        <div>P.IVA 08464320723</div>
+        <div class="me-5">2021 &copy; Carbodel - Consulting for Sustainability <br>Tutti i diritti riservati</div>
+        <div>P.IVA 08592300720</div>
       </div>
     </div>
 
@@ -841,6 +1077,12 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
