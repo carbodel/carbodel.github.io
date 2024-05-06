@@ -53,6 +53,23 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '392004729234058');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=392004729234058&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -66,7 +83,8 @@
       </div>
 
       <div class="social-links float-right">
-        <a href="https://twitter.com/carbodel1" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+          <!-- 
+        <a href="https://twitter.com/carbodel1" target="_blank" class="twitter"><i class="icofont-twitter"></i></a> -->
         <a href="https://www.facebook.com/Carbodel" class="facebook" target="_blank"><i
             class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/carbodel/" class="instagram" target="_blank"><i
@@ -169,7 +187,7 @@
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Life Cycle Assessment</h2>
                 <p class="animate__animated animate__fadeInUp"> Valutiamo e analizziamo l'impronta ambientale di un prodotto, 
-                  processo o servizio, lungo il suo intero ciclo di vita secondo le norme ISO 14040 and ISO 14044</p>
+                  processo o servizio, lungo il suo intero ciclo di vita secondo le norme ISO 14040 e ISO 14044</p>
                 <a href="lca.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Leggi di più</a>
               </div>
             </div>
@@ -262,21 +280,35 @@
         </div>
 
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><img src="assets/img/servizi/lca.gif" style="width:250px;height: 141px;" class="img-fluid"
-                alt=""></div>
-            <h4 class="title"><a href="lca.html">Life Cycle Assessment (LCA)</a></h4>
-            <p class="description"> Quantificazione dell’impatto ambientale di un processo, servizio o prodotto durante l’intero ciclo di vita dello stesso tramite 
-              l’applicazione della metodologia Life Cycle Assessment (LCA)</p>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><img src="assets/img/servizi/calc_emission.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="cn.html#carbonfootprint">Calcolo Carbon Footprint</a></h4>
+            <p class="description"> Elaborazione di un’analisi tecnica di inventario atta all’identificazione, quantificazione e classificazione dei vari hotspot di emissione di gas a effetto serra della tua attività</p>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><img src="assets/img/servizi/calc_emission.gif" style="width:250px;height: 141px;"
-                class="img-fluid" alt="">
+                class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="ts.html#targetsetting">Target Setting (SBTi aligned)</a></h4>
+            <p class="description">Definizione di obiettivi di riduzione delle emissioni di gas serra scientificamente validi, ambiziosi e allineati agli obiettivi globali di limitazione del riscaldamento globale a 1,5°C</p>
+          </div>          
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><img src="assets/img/servizi/calc_emission.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="cr.html#carbonroadmap">Carbon Roadmap</a></h4>
+            <p class="description">Una guida strategica e dettagliata per identificare e pianificare le azioni necessarie per ridurre le emissioni di carbonio di un'azienda nel corso del tempo</p>
+          </div>       
+
+
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+              <div class="icon"><img src="assets/img/servizi/lca.gif" style="width:250px;height: 141px;" class="img-fluid"
+                  alt=""></div>
+              <h4 class="title"><a href="lca.html">Life Cycle Assessment (LCA)</a></h4>
+              <p class="description"> Quantificazione dell’impatto ambientale di un processo, servizio o prodotto durante l’intero ciclo di vita dello stesso tramite 
+                l’applicazione della metodologia Life Cycle Assessment (LCA)</p>
             </div>
-            <h4 class="title"><a href="cn.html#carbonfootprint">Calcolo Carbon Footprint</a></h4>
-            <p class="description"> Elaborazione di un’analisi tecnica di inventario atta all’identificazione, quantificazione e classificazione dei vari hotspot di emissione di gas a effetto serra della tua attività</p>
-          </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><img src="assets/img/servizi/eff_energ.gif" style="width:250px;height: 141px;"
@@ -289,24 +321,32 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><img src="assets/img/servizi/acqusito_carbon_credits.gif"
                 style="width:250px;height: 141px;" class="img-fluid" alt=""></div>
-            <h4 class="title"><a href="cn.html#carboncredits">Acquisto Carbon Credit</a></h4>
-            <p class="description">Acquisto di crediti di carbonio atti a compensare le emissioni di anidride carbonica equivalente emesse in atmosfera da imprese e professionisti
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><img src="assets/img/servizi/eff_energ.gif"
-                style="width:250px;height: 141px;" class="img-fluid" alt=""></div>
-            <h4 class="title"><a href="#carboncredits">Gestione di Progetti Verdi</a></h4>
-            <p class="description">Sviluppo di progetti verdi atti alla potenziale generazione di crediti di carbonio da parte di aziende creditrici, scambiabili e/o vendibili sul libero mercato
+            <h4 class="title"><a href="vcc.html#carboncredits">Vendita Carbon Credit</a></h4>
+            <p class="description">Vendita di crediti di carbonio atti a compensare le emissioni di anidride carbonica equivalente emesse in atmosfera da imprese e professionisti
             </p>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><img src="assets/img/servizi/bacheca.gif" style="width:250px;height: 141px;"
                 class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="ccm.html">Certificazione di Carbonio Misurazione</a></h4>
+            <p class="description"> L’inizio di un percorso all’insegna della sostenibilità: misurazione delle emissioni atta ad ottenere la certificazione e il marchio di Carbonio Misurazione
+              </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img src="assets/img/servizi/bacheca.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt=""></div>
+            <h4 class="title"><a href="ccr.html">Certificazione di Carbonio Riduzione</a></h4>
+            <p class="description"> Un percorso all’insegna della sostenibilità: misurazione e riduzione delle emissioni atti ad ottenere la certificazione e il marchio di Carbonio Riduzione
+              </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><img src="assets/img/servizi/bacheca.gif" style="width:250px;height: 141px;"
+                class="img-fluid" alt=""></div>
             <h4 class="title"><a href="cn.html#certificazione">Certificazione di Carbonio Neutralità</a></h4>
-            <p class="description"> Un percorso all’insegna della sostenibilità: misurazione, riduzione e compensazione delle emissioni atti ad ottenere la certificazione e il marchio di Carbonio Neutralità
+            <p class="description"> Un percorso completo all’insegna della sostenibilità: misurazione, riduzione e compensazione delle emissioni atti ad ottenere la certificazione e il marchio di Carbonio Neutralità
               </p>
           </div>
 
@@ -824,6 +864,24 @@
         <div class="row  d-flex align-items-stretch">
 
           <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Cos’è un certificato di carbonio riduzione?</h4>
+            <p>
+              Un certificato di riduzione delle emissioni di carbonio (o carbonio riduzione) è un documento che attesta la riduzione di una determinata quantità di emissioni di gas serra, 
+              solitamente espressa in tonnellate di CO<sub>2</sub> equivalenti, conseguente all'implementazione di misure o progetti volti alla mitigazione del cambiamento climatico. 
+              Questi certificati vengono emessi da aziende o organismi e possono essere utilizzati come prova dell'impegno di un'organizzazione nella riduzione delle proprie emissioni di carbonio
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Cos’è un certificato di carbonio misurazione?</h4>
+            <p>
+              Un certificato di carbonio misurazione attesta che un'organizzazione ha condotto una valutazione accurata e completa delle proprie emissioni di gas serra, 
+              solitamente in conformità con standard riconosciuti a livello internazionale come il GHG Protocol. 
+              Questo certificato fornisce una base affidabile per comprendere e monitorare le emissioni di carbonio dell'organizzazione nel tempo, consentendo di identificare aree di intervento per ridurre l'impatto ambientale
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
             <h4>Cos’è un certificato di carbonio neutralità?</h4>
             <p>
               Il certificato di carbonio neutralità è un documento che attesta la condizione di impatto neutro di una determinata attività.
@@ -831,6 +889,37 @@
               rimozione e/o compensazione risulta essere pari a zero.
               Il certificato di carbonio neutralità viene ottenuto a seguito di un accurato processo di calcolo seguito da uno di verifica atto a individuare
               e quantificare le emissioni di CO<sub>2</sub> equivalente e pianificare come ridurle e compensarle al fine di bilanciarle nella loro totalità
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Cos’è il target setting?</h4>
+            <p>
+              Il "target setting" è il processo di stabilire obiettivi specifici e misurabili che un'organizzazione si impegna a raggiungere entro un determinato periodo di tempo. 
+              Questi obiettivi possono riguardare diversi aspetti dell'attività aziendale, come ad esempio la riduzione delle emissioni di carbonio, l'incremento della quota di energia rinnovabile utilizzata, o il miglioramento dell'efficienza energetica. Una volta definiti, 
+              i target vengono monitorati e valutati regolarmente per verificare il progresso e apportare eventuali aggiustamenti necessari per garantire il raggiungimento degli obiettivi prefissati
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Cos’è il GHG Protocol?</h4>
+            <p>
+              Il GHG Protocol, acronimo di Greenhouse Gas Protocol, è un'iniziativa globale volta a sviluppare standard e strumenti per la misurazione e la gestione delle emissioni di gas serra. 
+              È uno dei principali quadri di riferimento utilizzati da organizzazioni, governi e altre entità per calcolare e comunicare le proprie emissioni di gas serra in modo coerente e affidabile. 
+              Il GHG Protocol fornisce linee guida dettagliate su come misurare e riportare le emissioni di gas serra, consentendo un confronto e un monitoraggio efficace delle prestazioni ambientali tra diverse entità. 
+              È stato sviluppato da World Resources Institute (WRI) e World Business Council for Sustainable Development (WBCSD)
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Cos’è SBTi?</h4>
+            <p>
+              SBTi, acronimo di Science Based Targets initiative, è un'iniziativa collaborativa tra diverse organizzazioni tra cui il Carbon Disclosure Project (CDP), il World Resources Institute (WRI), 
+              il World Wide Fund for Nature (WWF) e il Global Compact delle Nazioni Unite. 
+              L'obiettivo principale di SBTi è quello di supportare le aziende nell'impostare obiettivi di riduzione delle emissioni di gas serra in linea con la scienza del clima per limitare l'aumento della 
+              temperatura globale entro livelli sicuri, come definito dagli accordi internazionali, come ad esempio l'Accordo di Parigi. 
+              Le aziende che aderiscono all'iniziativa possono impegnarsi a fissare obiettivi basati sulla scienza per ridurre le proprie emissioni di gas serra e aderire a pratiche di reporting trasparenti e 
+              rigorose per monitorare e comunicare il loro progresso
             </p>
           </div>
 
@@ -998,7 +1087,7 @@
               <strong>Email:</strong> info@carbodel.it<br>
             </p>
             <div class="social-links mt-3">
-              <a href="https://twitter.com/Carbodel1" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <!--  <a href="https://twitter.com/Carbodel1" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a> -->
               <a href="https://www.facebook.com/Carbodel" target="_blank" class="facebook"><i
                   class="bx bxl-facebook"></i></a>
               <a href="https://www.instagram.com/carbodel/" target="_blank" class="instagram"><i
@@ -1022,15 +1111,15 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nostri servizi</h4>
             <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#carbonfootprint">Calcolo Carbon FootPrint</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="ts.html">Target Setting (SBTi aligned)</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cr.html">Carbon Roadmap</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="lca.html">Life Cycle Assessment</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#carbonfootprint">Calcolo Carbon FootPrint</a>
-              </li>
-              <li><i class="bx bx-chevron-right"></i> <a href="cons.html#efficeintamento">Efficientamento Energetico e
-                  Consulenza
-                  Strategica</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#carboncredits">Acqusisto Carbon Credit</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#certificazione">Certificazione Carbonio
-                  Neutralità</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cons.html#efficeintamento">Efficientamento Energetico e Consulenza Strategica</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="vcc.html">Vendita Carbon Credit</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="ccm.html">Certificazione Carbonio Misurazione</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="ccr.html">Certificazione Carbonio Riduzione</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="cn.html#certificazione">Certificazione Carbonio Neutralità</a></li>
             </ul>
           </div>
           
@@ -1063,7 +1152,7 @@
 
     <div class="container">
       <div class="col-12 d-flex justify-content-center mt-4">
-        <div class="me-5">2022 &copy; Carbodel - Consulting for Sustainability <br>Tutti i diritti riservati</div>
+        <div class="me-5">2024 &copy; Carbodel - Consulting for Sustainability <br>Tutti i diritti riservati</div>
         <div>P.IVA 08592300720</div>
       </div>
     </div>
